@@ -1,0 +1,9 @@
+version: 2
+sources:
+- name: it_sync_proj_info_demo
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_proj_info_demo

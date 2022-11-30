@@ -1,0 +1,16 @@
+config:
+  partial_parse: true
+  printer_width: 120
+  send_anonymous_usage_stats: false
+  use_colors: true
+normalize:
+  outputs:
+    prod:
+      database: it_sync_proj_info_demo
+      password: suiyz890
+      port: 3306
+      schema: it_sync_proj_info_demo
+      server: 10.190.174.221
+      type: mysql
+      username: root
+  target: prod
